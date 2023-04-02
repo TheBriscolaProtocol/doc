@@ -53,7 +53,16 @@ id | valore
  10 | re
 
 # `id_err`
-Non ancora implementata
+13bit 
+id | valore
+:-:|:--------------------:
+ 0 | errore generico
+ 1 | connessione non accettabile
+ 2 | id_player non unico
+
+# `id_player`
+6 bit. indicano in modo univoco il giocatore all'interno della partita.
+Non viene specificato come questo ID debba essere stampato a video
 
 # Procedura di gioco di una partita
 - giocatoi G1 invia un segnale di `SEARCH` al server.
